@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Google.Apis.FirebaseRemoteConfig.v1</name>
+    </assembly>
+    <members>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService">
+            <summary>The FirebaseRemoteConfig Service.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.Version">
+            <summary>The API version.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.DiscoveryVersionUsed">
+            <summary>The discovery version used to generate this service.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.#ctor">
+            <summary>Constructs a new service.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.#ctor(Google.Apis.Services.BaseClientService.Initializer)">
+            <summary>Constructs a new service.</summary>
+            <param name="initializer">The service initializer.</param>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.Features">
+            <summary>Gets the service supported features.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.Name">
+            <summary>Gets the service name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.BaseUri">
+            <summary>Gets the service base URI.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.BasePath">
+            <summary>Gets the service base path.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.BatchUri">
+            <summary>Gets the batch base URI; <c>null</c> if unspecified.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.BatchPath">
+            <summary>Gets the batch base path; <c>null</c> if unspecified.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigService.Projects">
+            <summary>Gets the Projects resource.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1">
+            <summary>A base abstract class for FirebaseRemoteConfig requests.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new FirebaseRemoteConfigBaseServiceRequest instance.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.Xgafv">
+            <summary>V1 error format.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.XgafvEnum">
+            <summary>V1 error format.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.XgafvEnum.Value1">
+            <summary>v1 error format</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.XgafvEnum.Value2">
+            <summary>v2 error format</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.AccessToken">
+            <summary>OAuth access token.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.Alt">
+            <summary>Data format for response.</summary>
+            [default: json]
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.AltEnum">
+            <summary>Data format for response.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.AltEnum.Json">
+            <summary>Responses with Content-Type of application/json</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.AltEnum.Media">
+            <summary>Media download with context-dependent Content-Type</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.AltEnum.Proto">
+            <summary>Responses with Content-Type of application/x-protobuf</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.BearerToken">
+            <summary>OAuth bearer token.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.Callback">
+            <summary>JSONP</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.Fields">
+            <summary>Selector specifying which fields to include in a partial response.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.Key">
+            <summary>API key. Your API key identifies your project and provides you with API access, quota, and reports.
+            Required unless you provide an OAuth 2.0 token.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.OauthToken">
+            <summary>OAuth 2.0 token for the current user.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.Pp">
+            <summary>Pretty-print response.</summary>
+            [default: true]
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.PrettyPrint">
+            <summary>Returns response with indentations and line breaks.</summary>
+            [default: true]
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.QuotaUser">
+            <summary>Available to use for quota purposes for server-side applications. Can be any arbitrary string
+            assigned to a user, but should not exceed 40 characters.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.UploadType">
+            <summary>Legacy upload protocol for media (e.g. "media", "multipart").</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.UploadProtocol">
+            <summary>Upload protocol for media (e.g. "raw", "multipart").</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.FirebaseRemoteConfigBaseServiceRequest`1.InitParameters">
+            <summary>Initializes FirebaseRemoteConfig parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource">
+            <summary>The "projects" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.GetRemoteConfig(System.String)">
+            <summary>Get the latest version Remote Configuration for a project. Returns the RemoteConfig as the payload,
+            and also the eTag as a response header.</summary>
+            <param name="project">The GMP project identifier. Required. See note at the beginning of this file regarding project
+            ids.</param>
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.GetRemoteConfigRequest">
+            <summary>Get the latest version Remote Configuration for a project. Returns the RemoteConfig as the payload,
+            and also the eTag as a response header.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.GetRemoteConfigRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new GetRemoteConfig request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.GetRemoteConfigRequest.Project">
+            <summary>The GMP project identifier. Required. See note at the beginning of this file regarding project
+            ids.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.GetRemoteConfigRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.GetRemoteConfigRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.GetRemoteConfigRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.GetRemoteConfigRequest.InitParameters">
+            <summary>Initializes GetRemoteConfig parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfig(Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfig,System.String)">
+            <summary>Update a RemoteConfig. We treat this as an always-existing resource (when it is not found in our
+            data store, we treat it as version 0, a template with zero conditions and zero parameters). Hence there are
+            no Create or Delete operations. Returns the updated template when successful (and the updated eTag as a
+            response header), or an error if things go wrong. Possible error messages: * VALIDATION_ERROR (HTTP status
+            400) with additional details if the template being passed in can not be validated. * AUTHENTICATION_ERROR
+            (HTTP status 401) if the request can not be authenticate (e.g. no access token, or invalid access token). *
+            AUTHORIZATION_ERROR (HTTP status 403) if the request can not be authorized (e.g. the user has no access to
+            the specified project id). * VERSION_MISMATCH (HTTP status 412) when trying to update when the expected eTag
+            (passed in via the "If-match" header) is not specified, or is specified but does does not match the current
+            eTag. * Internal error (HTTP status 500) for Database problems or other internal errors.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="project">The GMP project identifier. Required. See note at the beginning of this file regarding project
+            ids.</param>
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest">
+            <summary>Update a RemoteConfig. We treat this as an always-existing resource (when it is not found in our
+            data store, we treat it as version 0, a template with zero conditions and zero parameters). Hence there are
+            no Create or Delete operations. Returns the updated template when successful (and the updated eTag as a
+            response header), or an error if things go wrong. Possible error messages: * VALIDATION_ERROR (HTTP status
+            400) with additional details if the template being passed in can not be validated. * AUTHENTICATION_ERROR
+            (HTTP status 401) if the request can not be authenticate (e.g. no access token, or invalid access token). *
+            AUTHORIZATION_ERROR (HTTP status 403) if the request can not be authorized (e.g. the user has no access to
+            the specified project id). * VERSION_MISMATCH (HTTP status 412) when trying to update when the expected eTag
+            (passed in via the "If-match" header) is not specified, or is specified but does does not match the current
+            eTag. * Internal error (HTTP status 500) for Database problems or other internal errors.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfig,System.String)">
+            <summary>Constructs a new UpdateRemoteConfig request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest.Project">
+            <summary>The GMP project identifier. Required. See note at the beginning of this file regarding project
+            ids.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest.ValidateOnly">
+            <summary>Optional. Defaults to false (UpdateRemoteConfig call should update the backend if there are no
+            validation/interal errors). May be set to true to indicate that, should no validation errors occur, the
+            call should return a "200 OK" instead of performing the update. Note that other error messages (500
+            Internal Error, 412 Version Mismatch, etc) may still result after flipping to false, even if getting a
+            "200 OK" when calling with true.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRemoteConfig.v1.ProjectsResource.UpdateRemoteConfigRequest.InitParameters">
+            <summary>Initializes UpdateRemoteConfig parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfig">
+            <summary>* The RemoteConfig consists of a list of conditions (which can be thought of as named "if" statements)
+            and a map of parameters (parameter key to a stucture containing an optional default value, as well as a optional
+            submap of (condition name to value when that condition is true).</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfig.Conditions">
+             <summary>The list of named conditions. The order *does* affect the semantics. The condition_name values of
+             these entries must be unique.
+            
+             The resolved value of a config parameter P is determined as follow: * Let Y be the set of values from the
+             submap of P that refer to conditions that evaluate to true. * If Y is non empty, the value is taken from the
+             specific submap in Y whose condition_name is the earliest in this condition list. * Else, if P has a default
+             value option (condition_name is empty) then the value is taken from that option. * Else, parameter P has no
+             value and is omitted from the config result.
+            
+             Example: parameter key "p1", default value "v1", submap specified as {"c1": v2, "c2": v3} where "c1" and
+             "c2" are names of conditions in the condition list (where "c1" in this example appears before "c2").  The
+             value of p1 would be v2 as long as c1 is true.  Otherwise, if c2 is true, p1 would evaluate to v3, and if c1
+             and c2 are both false, p1 would evaluate to v1.  If no default value was specified, and c1 and c2 were both
+             false, no value for p1 would be generated.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfig.Parameters">
+            <summary>Map of parameter keys to their optional default values and optional submap of (condition name :
+            value). Order doesn't affect semantics, and so is sorted by the server. The 'key' values of the params must
+            be unique.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfig.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigCondition">
+            <summary>A single RemoteConfig Condition.  A list of these (because order matters) are part of a single
+            RemoteConfig template.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigCondition.Expression">
+            <summary>Required.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigCondition.Name">
+            <summary>Required. A non empty and unique name of this condition.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigCondition.TagColor">
+            <summary>Optional. The display (tag) color of this condition. This serves as part of a tag (in the future,
+            we may add tag text as well as tag color, but that is not yet implemented in the UI). This value has no
+            affect on the semantics of the delivered config and it is ignored by the backend, except for passing it
+            through write/read requests. Not having this value or having the "CONDITION_DISPLAY_COLOR_UNSPECIFIED" value
+            (0) have the same meaning:  Let the UI choose any valid color when displaying the condition.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigCondition.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigParameter">
+            <summary>While default_value and conditional_values are each optional, at least one of the two is required -
+            otherwise, the parameter is meaningless (and an exception will be thrown by the validation logic).</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigParameter.ConditionalValues">
+            <summary>Optional - a map of (condition_name, value). The condition_name of the highest priority (the one
+            listed first in the conditions array) determines the value of this parameter.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigParameter.DefaultValue">
+            <summary>Optional - value to set the parameter to, when none of the named conditions evaluate to
+            true.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigParameter.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigParameterValue">
+            <summary>A RemoteConfigParameter's "value" (either the default value, or the value associated with a condition
+            name) is either a string, or the "use_in_app_default" indicator (which means to leave out the parameter from the
+            returned  map that is the output of the parameter fetch). We represent the "use_in_app_default" as a bool, but
+            (when using the boolean instead of the string) it should always be true.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigParameterValue.UseInAppDefault">
+            <summary>if true, omit the parameter from the map of fetched parameter values</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigParameterValue.Value">
+            <summary>the string to set the parameter to</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRemoteConfig.v1.Data.RemoteConfigParameterValue.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+    </members>
+</doc>

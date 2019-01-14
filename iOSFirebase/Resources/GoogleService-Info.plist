@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>752203397654-c26svheffikm66t9juv2fl1in5gnf7cp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.752203397654-c26svheffikm66t9juv2fl1in5gnf7cp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAjxd1S4Tt50Vw_jf5TC2XOli_lz43Gf88</string>
+	<key>GCM_SENDER_ID</key>
+	<string>752203397654</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.companyname.iosfirebase</string>
+	<key>PROJECT_ID</key>
+	<string>kitchensinkios-77b5f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kitchensinkios-77b5f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:752203397654:ios:a3545a8298425fbf</string>
+	<key>DATABASE_URL</key>
+	<string>https://kitchensinkios-77b5f.firebaseio.com</string>
+</dict>
+</plist>
